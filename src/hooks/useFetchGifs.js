@@ -4,7 +4,7 @@ import { getGifs } from "../helpers/getGifs";
 
 export const useFetchGifs = (cate) => {
 
-
+//
     const [images, setImages] = useState([]);
 
     const [isLoading, setIsLoading] = useState(true);
